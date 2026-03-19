@@ -1,11 +1,11 @@
-import { Container } from "./styles"
+import { Container, Logo } from "./styles"
 
 import { Moon as MoonIcon } from "lucide-react"
 
 const Header = () => {
     return (
         <Container>
-            <h1>TODO</h1>
+            <Logo>TODO</Logo>
 
             <MoonIcon
                 size={35}

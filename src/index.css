@@ -8,6 +8,10 @@
     letter-spacing: 0.5px;
 }
 
+body {
+    background-color: var(--gray50);
+}
+
 :root {
     --white: #FFFFFF;
     --gray50: hsl(0, 0%, 98%);
@@ -15,4 +19,16 @@
     --gray600: hsl(236, 9%, 61%);
     --purple300: hsl(234, 39%, 85%);
     --navy850: hsl(235, 19%, 35%);
+    --gradient: linear-gradient(120deg, hsl(192, 100%, 67%), hsl(280, 87%, 65%))
+}
+
+.dark {
+    --navy950: hsl(235, 21%, 11%);
+    --navy900: hsl(235, 24%, 19%);
+    --purple300: hsl(234, 39%, 85%);
+    --purple100: hsl(236, 33%, 92%);
+    --purple600: hsl(235, 16%, 43%);
+    --purple700: hsl(233, 14%, 35%);
+    --purple800: hsl(237, 14%, 26%);
+    --gray600: hsl(236, 9%, 61%);
 }

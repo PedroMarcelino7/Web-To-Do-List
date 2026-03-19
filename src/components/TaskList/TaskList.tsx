@@ -9,6 +9,11 @@ const TaskList = () => {
             <DefaultTask />
             <DefaultTask />
             <DefaultTask />
+            <DefaultTask />
+            <DefaultTask />
+            <DefaultTask />
+            <DefaultTask />
+            <DefaultTask />
         </Container>
     )
 }

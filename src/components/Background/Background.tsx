@@ -1,5 +1,5 @@
 import type { ReactNode } from "react"
-import { Background_container } from "./styles"
+import { Container, ScreenBackground } from "./styles"
 
 type Props = {
     children: ReactNode
@@ -7,9 +7,11 @@ type Props = {
 
 const Background = ({ children }: Props) => {
     return (
-        <Background_container>
-            {children}
-        </Background_container>
+        <ScreenBackground>
+            <Container>
+                {children}
+            </Container>
+        </ScreenBackground>
     )
 }
 
