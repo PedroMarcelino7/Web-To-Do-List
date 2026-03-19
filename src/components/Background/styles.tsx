@@ -3,9 +3,10 @@ import styled from "styled-components";
 import bg from '../../images/bg-mobile-light.jpg';
 
 export const Background_container = styled.div`
-    display: flex;
     width: 100%;
     height: 100vh;
+    padding-inline: 1.5rem;
+    padding-block: 3.5rem;
     background-image: url(${bg});
     background-position: top;
     background-repeat: no-repeat;
