@@ -11,5 +11,5 @@ export const Background_container = styled.div`
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
-    background-color: var(--light);
+    background-color: var(--gray50);
 `

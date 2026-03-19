@@ -1,6 +1,10 @@
+import CreateTaskInput from "../../ui/Inputs/CreateTaskInput/CreateTaskInput"
+
 const CreateNewTask = () => {
     return (
-        <div>CreateNewTask</div>
+        <>
+            <CreateTaskInput />
+        </>
     )
 }
 

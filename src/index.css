@@ -2,9 +2,18 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
 }
 
 :root {
-    --white: #FFF;
+    --white: #FFFFFF;
     --light: #FAFAFA;
+    --gray50: hsl(0, 0%, 98%);
+    --gray300: hsl(233, 11%, 84%);
+    --gray600: hsl(236, 9%, 61%);
+    --purple300: hsl(234, 39%, 85%);
+    --navy850: hsl(235, 19%, 35%);
 }
